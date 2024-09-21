@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.cv-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Name and Contact Sections */
+.name-container h1 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+
+.name-container p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #2c3e50;
+}
+
+.address-container p, .contact-container p {
+    font-size: 0.9em;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+h3 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skills-container p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Education and Experience */
+.schoolName, .companyName {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.time {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Footer Section */
+.contact-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-container a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cv-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
